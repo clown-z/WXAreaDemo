@@ -1,0 +1,32 @@
+/**list.wxss**/
+.widget{
+	position: relative;
+	margin-top: 5rpx;
+	margin-bottom: 5rpx;
+	padding: 10rpx 40rpx;
+	border: #ddd 1rpx solid;
+}
+.container{
+	height: 100%;
+	display: table;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 10rpx 0;
+	text-align: center;
+}
+
+.column{
+	width: 4em;
+	display: table-cell;
+}
+
+.link-column{
+	width: 6em;
+	display: table-cell;
+}
+
+.link{
+	color: blue;
+	display: inline-table;
+}
